@@ -1,4 +1,5 @@
 # Yomzo apk assistant / sends live time to OBS via URL
+for use
 
 
 while True:
