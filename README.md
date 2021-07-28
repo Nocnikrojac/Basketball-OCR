@@ -1,5 +1,4 @@
 # Yomzo apk assistant / sends live time to OBS via URL
-CSV to TXT
 
 
 while True:
