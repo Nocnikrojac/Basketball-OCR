@@ -1,4 +1,4 @@
-# YOMZO apk assistant / sends live time to OBS via URL using FOLDER SERVER apk
+# YOMZO apk assistant / sends live time to OBS using FOLDER SERVER apk
 # for basketball scoreboard
 
     while True:
