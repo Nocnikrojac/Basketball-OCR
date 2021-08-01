@@ -52,5 +52,3 @@
              outFile=open(outFileName, "w")
              outFile.write(line[-5:])
              outFile.close()
-
-         tk.mainloop()
