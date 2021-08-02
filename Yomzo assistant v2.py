@@ -52,5 +52,5 @@ while True:
 
     outFileName="OBStime.txt"
     outFile=open(outFileName, "w")
-    outFile.write(line[-5:])
+    outFile.write(line[-7:]) # or [-5:]
     outFile.close()
