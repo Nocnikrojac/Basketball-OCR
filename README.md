@@ -41,7 +41,7 @@
 
              from urllib import request
 
-             f = open("IP-CSV.txt", "r")
+             f = open("IP-CSV.txt", "rt")
 
              url = (f.read())
              response = request.urlopen(url)
