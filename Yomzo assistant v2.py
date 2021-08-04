@@ -16,7 +16,7 @@ e2.grid(row=1, column=1)
 
 def show_entry_fields():
 
-    file = open("IP-CSV.txt", "wt")
+    file = open("IP-CSV.txt", "w")
     file.write ((e1.get() + e2.get()))
     file.close()
     print ("URL: %s\nCSV: %s" % (e1.get(), e2.get()))
@@ -43,7 +43,7 @@ while True:
 
     from urllib import request
 
-    f = open("IP-CSV.txt", "rt")
+    f = open("IP-CSV.txt", "r")
             
     url = (f.read())
     response = request.urlopen(url)
