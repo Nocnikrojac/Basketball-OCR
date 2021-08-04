@@ -16,7 +16,7 @@ e2.grid(row=1, column=1)
 
 def show_entry_fields():
 
-    file = open("IP-CSV.txt", "w")
+    file = open("IP-CSV.txt", "wt")
     file.write ((e1.get() + e2.get()))
     file.close()
     print ("URL: %s\nCSV: %s" % (e1.get(), e2.get()))
@@ -47,7 +47,7 @@ while True:
             
     url = (f.read())
     response = request.urlopen(url)
-    line = response.read().decode('latin-1')
+    line = response.read().decode('utf-8')
           
 
     outFileName="OBStime.txt"
